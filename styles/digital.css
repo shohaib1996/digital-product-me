@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* header styles */
+
+.logo-light {
+    width: 150px;
+}
+header {
+    display: flex;
+    background-color: rgb(78, 76, 76);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    
+}
+.nav li {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+/* main 1st section styles */
+.first-sec {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17, 4, 4);
+    color: #fff;
+    
+}
+.banner1{
+    width: 300px;
+}
+.sec-title {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.sec-desc {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    background-color: red;
+    padding: 16px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+}
+/* second sec styles */
+.sec-title2 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.second-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.banner2 {
+    width: 350px;
+}
+.sec-right{
+    text-align: left;
+}
+.second-desc{
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/* 3rd section styles */
+.third-3{
+    background-color: black;
+    color: #fff;
+    margin-top: 30px;
+}
+.sec-title3{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.icon{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+    padding: 100px;
+}
+.card{
+    height: 350px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 4px  2px 105px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-title, .card-desc {
+    margin-bottom: 25px;
+}
+.card-btn{
+    color: black;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+}
+/* footer styles */
+.footer{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 20px auto;
+
+}
+.footer-img {
+    width: 150px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+
+}
+.footer-div {
+    line-height: 30px;
+    margin-left: 50px;
+}
+.footer-last{
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+}
+hr{
+    border: 1px solid white;
+    margin: 0px 50px;
+}
